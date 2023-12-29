@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+  }
+  
+  .Bottom {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+  
+  .Top {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+
+  /* Background Scribble */
+  
+  .Bottom-flex {
+    display: flex;
+  }
+
+  .img-size {
+    width: 50%;
+    height: auto;
+  }
+
+  .left-img {
+    margin-left: -50px;
+    margin-top: -50px;
+  }
+
+  .right-img {
+    float: right;
+    margin-right: -50px;
+    margin-top: -50px;
+  }
+
+
+  /* mainpart */
+
+  .TopFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 7.5em;
+  }
