@@ -30,11 +30,11 @@ export default function Landing() {
         </div>
       </div>
       <div className='coverImg'>
-        <div>
-          <img src={CRLogo} alt="" srcset="" />
+        <div className='logo-Div'>
+          <img src={CRLogo} alt="Logo" srcset="" className='cr-logo' />
         </div>
-        <div>
-          <img src={LandingLogo} alt="" srcset="" />
+        <div className='cover-div'>
+          <img src={LandingLogo} alt="Cover" srcset="" className='Landing-cover'/>
         </div>
       </div>
     </div>

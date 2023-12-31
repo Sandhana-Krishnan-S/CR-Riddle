@@ -45,5 +45,41 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .Section {
     padding: 7.5em;
+  }
+
+  .coverImg {
+    width: 50%;
+    height: auto;
+  }
+
+  .cr-logo {
+    width: 250px;
+    height: auto;
+  }
+
+  .logo-Div {
+    width: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cover-div {
+    width: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .Landing-cover {
+    width: 700vh;
+    height: auto;
   }
